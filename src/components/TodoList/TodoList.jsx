@@ -2,7 +2,7 @@ import { TodoInfo } from '../TodoInfo/TodoInfo';
 
 // Add the required props
 export const TodoList = ({ todos }) => {
-  if (todos === 0) {
+  if (todos.length === 0) {
     return null;
   }
 
